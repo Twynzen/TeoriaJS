@@ -3,4 +3,6 @@ function palindrome(text) {
     return word === text ? 'is palindrome' : 'is not palindrome'
 
 }
-palindrome('ana');
+res = palindrome('bob');
+
+console.log(res);
